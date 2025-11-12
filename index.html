@@ -10,18 +10,19 @@
 
 <body>
 
-    <main class="main">
+    <div class="container">
+        <main class="main">
+            <label for="data-el">Enter Data</label>
+            <input type="text" id="data-el" placeholder="Enter Data" />
+            <button onclick="handleSubmit()">Submit</button>
+        </main>
 
-        <label for="data-el">Enter Data</label>
-        <input type="text" id="data-el" placeholder="Enter Data " />
-        <button onclick="handleSubmit()">Submit</button>
-
-    </main>
-
-    <section>
-        <ul id="list-el">
-        </ul>
-    </section>
+        <section>
+            <h3 class="muted">Saved items</h3>
+            <ul id="list-el">
+            </ul>
+        </section>
+    </div>
     <script type="text/javascript" src="index.js"></script>
 </body>
 
