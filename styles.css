@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-btn {
+    background-color: red;
+}
+
+
+li {
+    list-style: none;
+}
